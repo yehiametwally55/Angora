@@ -1,0 +1,170 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif; 
+}
+.navbar{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    width: 100%;
+}
+.setting-btn{
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 40%;
+    bottom: 60%;
+    border-radius: 0px 2px 2px 0px;
+    font-size: 25px;
+    z-index: 2;
+}
+.setting-btn i{
+   color: white;
+ 
+}
+
+.caption h2{
+    font-size: 3.5rem;
+}
+.social{
+    float: right;
+    margin-left: 40px;
+}
+.social a{
+    text-decoration: none;
+    color: white;
+}
+.social a i{
+    padding: 0 10px;
+}
+
+.nav-link:focus, .nav-link:hover{
+    color: #f25454 !important;
+}
+a:hover {
+    color: #f25454 !important;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color:#f25454 !important;
+}
+ 
+.header{
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header h2{
+    opacity: 0.4;
+    text-transform: uppercase;
+    margin-bottom: 0 !important;
+    margin-top: 0;
+    font-weight: 600 !important;
+    line-height: 1.3;
+    color: #dee3e4 !important;
+    font-size: calc(1rem + 6vw) !important;
+    /* border-bottom: 2px solid black;
+    border-width: 10%; */
+    
+}
+.header p{
+    position: absolute;
+    margin-bottom: 0 !important;
+    margin-top: 0;
+    font-weight: 600 !important;
+    font-size: 2.25rem;
+    line-height: 1.5!important;
+    color: #212529!important;
+    bottom: 0;
+}
+.progress{
+    height: 5px !important;
+}
+.progress-bar{
+    background-color: #f25454 !important;
+    height: 5px;
+}
+.Team-social{
+    background-color: rgba(242, 84, 84, 0.85);
+    color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    padding: 10px;
+    opacity: 0;
+    width: 75%;
+    transition: all 0.5s;
+    z-index: 1;
+}
+
+.photo:hover .Team-social{
+    opacity: 1;
+}
+.photo{
+    width: 100%;
+}
+.photo img{
+    border-radius: 3px;
+    width: 75%;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 10rem !important;
+    height: 10rem !important;
+    border-radius: 50% !important;
+    text-indent: 0 !important;
+}
+.btn{
+    width: 40%;
+    background-color: #f25454 !important;
+    border-radius: 3px;
+    padding: 25px 30px;
+    font-size: 1.5rem;
+}
+.icon{
+    color: #f25454;
+    position: relative;
+    display: block;
+    float: left;
+    font-size: 32px;
+    font-weight: normal;
+    margin-right: 20px;
+    text-align: center;
+    cursor: default;
+}
+.text h3{
+    font-size: 1.25rem;
+    transition: all 0.25s;
+}
+.text h3:hover{
+    color: #f25454;
+}
+
+.text h4{
+    transition: all 0.25s;
+}
+.text h4:hover{
+    color: #f25454;
+}
+.footer-content{
+    background-image: url(../images/dotted-map.webp);
+}
+ul{
+    position: relative;
+    left: 0;
+}
+ul li{
+    list-style-type: none;
+}
+.tinfo a{
+    text-decoration: none;
+}
+.tinfo  p:hover{
+    color: #f25454;
+}
+.footer a{
+    text-decoration: none;
+}
