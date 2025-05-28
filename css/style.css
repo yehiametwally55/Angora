@@ -6,23 +6,6 @@ body{
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     width: 100%;
 }
-.navbar-scrolled {
-  background-color: #ffffff; 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.navbar-scrolled .nav-link,
-.navbar-scrolled .navbar-brand {
-  color: #000000 !important;
-}
-
-.navbar-scrolled .social a i {
-  color: #000000 !important;
-}
-
-.navbar-scrolled .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-}
 .setting-btn{
     width: 50px;
     height: 50px;
@@ -64,7 +47,15 @@ a:hover {
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
     color:#f25454 !important;
 }
- 
+.navbar {
+    transition: background-color 0.4s ease-in-out;
+}
+
+.navbar-scrolled {
+    background-color: rgba(0, 0, 0, 0.85);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
 .header{
     position: relative;
     display: flex;
